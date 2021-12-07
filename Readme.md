@@ -21,13 +21,17 @@ telepresence connect
 ```
 
 now show in demo how I connect to internal only services via browser
-`http://wireguard-wg-access-server-web.wireguard/signin`
-`http://ui.lab/`
-`http://argocd-server.devtroncd/`
+i.e
+
+```
+http://wireguard-wg-access-server-web.wireguard/signin
+http://ui.lab/
+http://argocd-server.devtroncd/
+```
 
 
 # Intercept
-```bash 
+```bash
 telepresence list # List current intercepts
 telepresence intercept backend --port 9090:80 # Intercept a service
 telepresence leave # Remove existing intercept
@@ -38,3 +42,6 @@ telepresence leave # Remove existing intercept
 ```bash
 telepresence quit
 ```
+
+
+
