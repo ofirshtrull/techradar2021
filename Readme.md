@@ -15,7 +15,7 @@ url: https://www.telepresence.io/
 https://www.telepresence.io/docs/latest/install/?os=windows
 
 
-# vpc proxy
+# vpn proxy
 ```bash
 telepresence connect
 ```
