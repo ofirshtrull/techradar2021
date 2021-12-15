@@ -20,7 +20,7 @@ https://www.telepresence.io/docs/latest/install/?os=windows
 telepresence connect
 ```
 
-now show in demo how I connect to internal only services via browser
+now show in demo how I connect to internal only services via browser, (of course each cluster has diffrent services and namespaces ;-) )
 i.e
 
 ```
