@@ -15,12 +15,12 @@ url: https://www.telepresence.io/
 https://www.telepresence.io/docs/latest/install/?os=windows
 
 
-# vpc proxy
+# vpn proxy
 ```bash
 telepresence connect
 ```
 
-now show in demo how I connect to internal only services via browser
+now show in demo how I connect to internal only services via browser, (of course each cluster has diffrent services and namespaces ;-) )
 i.e
 
 ```
