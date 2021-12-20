@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "<h1>Hello, Tikals TechRadar 2021!</h1>"
+    return "<h1>The Devops is strong with this one. (By Master Yoda)</h1><br><img src='https://media.makeameme.org/created/devops-5cb6df.jpg'>"
 
 @app.route('/user/<name>')
 def user(name):
